@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+}
+.CarGame{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/ground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+   
+    
+.gameArea{
+    border-right: 7px dashed #c8d6e5;
+    border-left: 7px dashed #c8d6e5;
+    display: block;
+    margin: auto;
+    height: 100vh;
+    width: 412px;
+    background: #2d3436;
+    position: relative;
+    overflow: hidden;
+        
+}
+.lines{
+    visibility: hidden;
+background-color: white;
+height: 132px;
+width: 9px;
+position: absolute;
+top: -8%;
+left: 49%;
+}
+
+#speedlogo img{
+    height: 119px;
+    width: 194px;
+    position: absolute;
+    top: 0%;
+    right: 15px;
+}
+
+.startScreen{
+    position: absolute;
+    background-color: #ee5253;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+    border: 1px solid #ff6b6b;
+    padding: 15px;
+    margin: auto;
+    width: 48%;
+    cursor: pointer;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 34px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px #777;
+}
+.hide{  
+    visibility: hidden; 
+}
+
+.score{
+    position: absolute;
+    top: 43px;
+    left: 40px;
+    background: #10ac84;
+    width:284px;
+    line-height: 65px;
+    text-align: center;
+    color: rgb(51, 48, 48);
+    font-size: 1.4em;
+    box-shadow: 0 5px 5px #777;
+
+}
+
+.mscore{
+    position: absolute;
+    top: 87px;
+    left: 40px;
+    background: #10ac84;
+    width: 284px;
+    line-height: 57px;
+    text-align: center;
+    color: rgb(51, 48, 48);
+    font-size: 1.4em;
+    box-shadow: 0 5px 5px #777;
+}
+.car{
+    width: 55px;
+    height: 105px;
+    position: absolute;
+    background-image: url(images/Car.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 788px;
+    top: 461px;
+    visibility: hidden;
+}
+
+.enemy{
+
+
+    width: 57px;
+    height: 107px;
+    position: absolute;
+    background-image: url(images/enemy.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
